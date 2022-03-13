@@ -17,8 +17,7 @@ For the tokens of specific positions in the query and key, we define:
   <img src="./figures/eq2.png">
 </p>
 
-All the notation is the same as the original paper, except that `(i, j)` and `(k, l)` mean the 2D coordinates of the tokens in the query grid and key grid, respectively. Now we can adjust the multiplication order of `KQV` and perform the calculation in linear complexity. (P.S. I also tested the version that neglects two middle terms in the above decomposition formula,  
-and get lower accuracy but faster computation.)
+All the notation is the same as the original paper, except that `(i, j)` and `(k, l)` mean the 2D coordinates of the tokens in the query grid and key grid, respectively. Now we can adjust the multiplication order of `KQV` and perform the calculation in linear complexity. (P.S. I also tested the version that neglects two middle terms in the above decomposition formula, and get lower accuracy but faster computation.)
 
 ## Usage
 
